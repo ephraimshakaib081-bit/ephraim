@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff8f0;
+}
+
+/* Header */
+header {
+    background-color: #ff6f91;
+    padding: 15px;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #ffd6e0;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h2 {
+    color: #333;
+}
+
+.hero button {
+    background-color: #ff6f91;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Flavors */
+.flavors {
+    padding: 40px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* About & Contact */
+.about, .contact {
+    background-color: #ffe5ec;
+    padding: 40px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #ff6f91;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
